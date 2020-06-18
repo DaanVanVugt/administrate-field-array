@@ -13,4 +13,4 @@ By default, the attribute is rendered as a list joined with spaces
   A wrapper around the array pulled from the database.
 %>
 
-<%= field.data.join(' ') %>
+<%= field.data&.join(' ') %>

@@ -17,5 +17,5 @@ By default, the input is a text field which will be split on spaces
   <%= f.label field.attribute %>
 </div>
 <div class="field-unit__field">
-  <%= f.text_field field.attribute&.join(' ') %>
+  <%= f.text_field field.attribute, value: field.data&.join(' ') %>
 </div>
