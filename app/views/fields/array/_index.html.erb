@@ -1,0 +1,16 @@
+<%#
+# HTML Index Partial
+
+This partial renders an array attribute
+to be displayed on a resource's index page.
+
+By default, the attribute is rendered as a list joined with spaces
+
+## Local variables:
+
+- `field`:
+  An instance of Administrate::Field::Array.
+  A wrapper around the array pulled from the database.
+%>
+
+<%= field.data.join(' ') %>

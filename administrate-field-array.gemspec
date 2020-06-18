@@ -3,12 +3,12 @@
 $LOAD_PATH.push File.expand_path('lib', __dir__)
 
 Gem::Specification.new do |gem|
-  gem.name = 'administrate-field-html'
+  gem.name = 'administrate-field-array'
   gem.version = '1.0.0'
   gem.authors = ['Daan van Vugt']
   gem.email = ['daanvanvugt@gmail.com']
-  gem.homepage = 'https://github.com/DaanVanVugt/administrate-field-html'
-  gem.summary = 'HTML field plugin for Administrate'
+  gem.homepage = 'https://github.com/DaanVanVugt/administrate-field-array'
+  gem.summary = 'Array field plugin for Administrate'
   gem.description = gem.summary
   gem.license = 'MIT'
 

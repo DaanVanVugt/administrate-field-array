@@ -5,7 +5,7 @@ require 'rails'
 
 module Administrate
   module Field
-    class HTML < Administrate::Field::Base
+    class Array < Administrate::Field::Base
       class Engine < ::Rails::Engine
       end
     end
