@@ -1,3 +1,3 @@
-# Administrate::Field::HTML
+# Administrate::Field::Array
 
-A plugin to render HTML on the show page. Useful in combination with markdown parsers, where you want to show the rendered output instead of the raw markdown.
+A plugin to render an array on the show page. Input is a text field split on spaces for now.
