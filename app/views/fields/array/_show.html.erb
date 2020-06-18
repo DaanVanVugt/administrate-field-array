@@ -14,7 +14,7 @@ By default, the attribute is rendered as a HTML list
 %>
 
 <ul>
-  <% field.data.each do |item| %>
+  <% field.data&.each do |item| %>
     <li><%= item %>
   <% end %>
 </ul>
